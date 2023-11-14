@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-09T16:51:45 PKT" name="Default suite" finished-at="2023-04-09T16:51:46 PKT" duration-ms="102">
+    <groups>
+    </groups>
+    <test started-at="2023-04-09T16:51:45 PKT" name="Default test" finished-at="2023-04-09T16:51:46 PKT" duration-ms="102">
+      <class name="ChildClass">
+        <test-method is-config="true" signature="beforeParentclass()[pri:0, instance:ChildClass@2bfc268b]" started-at="2023-04-09T16:51:45 PKT" name="beforeParentclass" finished-at="2023-04-09T16:51:45 PKT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeParentclass -->
+        <test-method signature="childTestClass()[pri:0, instance:ChildClass@2bfc268b]" started-at="2023-04-09T16:51:45 PKT" name="childTestClass" finished-at="2023-04-09T16:51:46 PKT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- childTestClass -->
+        <test-method is-config="true" signature="afterParentclass()[pri:0, instance:ChildClass@2bfc268b]" started-at="2023-04-09T16:51:46 PKT" name="afterParentclass" finished-at="2023-04-09T16:51:46 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterParentclass -->
+      </class> <!-- ChildClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
